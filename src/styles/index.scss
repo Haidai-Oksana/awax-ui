@@ -1,0 +1,12 @@
+@import "./clear";
+@import "./variables";
+@import "./mixins";
+@import "./fonts.scss";
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  color: $color-primary;
+}
