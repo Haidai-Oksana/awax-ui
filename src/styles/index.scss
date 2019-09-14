@@ -22,12 +22,23 @@ body {
   outline: none;
   cursor: pointer;
   transition: background-color $animation-time;
-  padding: 5 20px;
+  padding: 5px 20px;
   &:hover,
   &:focus {
     background: $color-firm7;
   }
   &:active {
     background: rgba($color-firm7, 0.7);
+  }
+}
+
+.button--secondary {
+  background-color: $color-firm7;
+  &:hover,
+  &:focus {
+    background: $color-firm3;
+  }
+  &:active {
+    background: rgba($color-firm3, 0.7);
   }
 }
