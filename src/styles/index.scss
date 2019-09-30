@@ -4,6 +4,8 @@
 @import "./fonts.scss";
 @import "./components/index.scss";
 
+
+
 html,
 body {
   font-family: $font-family1;
@@ -17,6 +19,7 @@ h1 {
 
 h2 {
   font-size: $font-size2;
+  font-weight: 700;
 }
 
 h3 {
