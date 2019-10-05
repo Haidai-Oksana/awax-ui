@@ -4,8 +4,6 @@
 @import "./fonts.scss";
 @import "./components/index.scss";
 
-
-
 html,
 body {
   font-family: $font-family1;
@@ -25,7 +23,7 @@ h2 {
 h3 {
   font-size: $font-size3;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h4 {
@@ -50,7 +48,6 @@ p {
 .subtitle {
   font-size: $font-size7;
   font-weight: 600;
-  color: $color-firm4;
   text-transform: uppercase;
 }
 
@@ -63,6 +60,10 @@ p {
   color: $color-firm2;
 }
 
+.app__section--price {
+  background: $color-firm11;
+}
+
 .app__section-content {
   max-width: 1132px;
   margin: 0 auto;
@@ -71,6 +72,8 @@ p {
 .app__section-subtitle {
   margin-top: 8px;
   text-align: center;
+  color: $color-firm4;
+
 }
 
 .app__section-title {
