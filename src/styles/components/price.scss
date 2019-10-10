@@ -12,7 +12,7 @@ $item-margin: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: calc(45px - #{$item-margin} ) -#{$item-margin} -#{$item-margin};
+  margin: calc(45px - #{$item-margin} ) -#{$item-margin} -#{$item-margin};  //TODO: Simplify this line
 
 }
 
