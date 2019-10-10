@@ -1,0 +1,78 @@
+@import "../variables.scss";
+
+
+.tabs {
+  display: inline-flex;
+  justify-content: center;
+  height: 58px;
+
+}
+
+.tabs__items{
+  display: flex;
+  height: 100%;
+  border: 1px solid $color-firm10;
+  background-color: $color-firm11;
+  padding: 0 15px;
+  border-radius: 25px;
+}
+
+.tabs__item {
+  display: flex;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  padding: 5px 22px;
+  cursor: pointer;
+
+  &:last-child {
+    &:after {
+      content: none;
+    }
+  }
+
+  &:hover,
+  &:focus {
+
+    &:before {
+      transform: translateY(0);
+    }
+  }
+
+  &:active {
+    &:before {
+      transform: translateY(2px);
+    }
+  }
+
+  &:before {
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: -1px;
+    left: 5px;
+    height: 6px;
+    width: calc(100% - 10px);
+    background-color: $color-firm3;
+    transform: translateY(100%);
+    transition: transform $animation-time;
+  }
+
+  &:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 1px;
+    right: 0px;
+    top: 2px;
+    height: calc(100% - 4px);
+    background-color: $color-firm10;
+  }
+
+}
+
+.tabs__item--active {
+  &:before {
+    transform: translateY(0);
+  }
+}
