@@ -5,6 +5,8 @@
 @import "./typography.scss";
 @import "./components/index.scss";
 
+$section-content-max-width: 1132px;
+
 html,
 body {
   font-family: $font-family1;
@@ -58,6 +60,7 @@ body {
   max-width: 1132px;
   margin: 0 auto;
 }
+
 
 .app__section-subtitle {
   margin-top: 8px;

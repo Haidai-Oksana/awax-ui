@@ -23,6 +23,7 @@ h4 {
 h5 {
   font-size: $font-size5;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 h6 {
@@ -41,4 +42,9 @@ p {
   font-size: $font-size7;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+ul,
+ol {
+  font-weight: 300;
 }
